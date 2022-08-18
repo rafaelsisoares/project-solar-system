@@ -1,3 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+  color: white;
+  font-family: Courier New , Courier , monospace;
+}
+
+img {
+  width: 90%;
+}
+
 .App {
+  text-align: center;
+}
+
+.start {
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+  width: 95%;
+}
+
+.title {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+}
+
+.planet-container {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.planet {
+  display: inline-block;
+  margin: 10px 15px;
+  text-align: center;
+  width: 10%;
+}
+
+.mission-container {
+  margin: 10px auto;
+  width: 99%;
+}
+
+.mission-card {
+  border: 2px double white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 10px;
+  width: 30%;
+}
+
+.mission-name {
   text-align: center;
 }
