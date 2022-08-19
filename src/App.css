@@ -46,6 +46,10 @@ img {
   width: 10%;
 }
 
+.planet img:hover {
+  transform: scale(1.2);
+}
+
 .mission-container {
   display: flex;
   flex-flow: row wrap;
