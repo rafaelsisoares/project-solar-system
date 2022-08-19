@@ -47,19 +47,46 @@ img {
 }
 
 .mission-container {
+  display: flex;
+  flex-flow: row wrap;
   margin: 10px auto;
-  width: 99%;
+  width: 95%;
 }
 
 .mission-card {
   border: 2px double white;
   border-radius: 10px;
   display: inline-block;
-  margin: 5px 20px;
+  margin: 5px auto;
   padding: 10px;
   width: 30%;
 }
 
 .mission-name {
   text-align: center;
+}
+
+@media screen and ( max-width : 900px ) {
+
+  .planet-container, .mission-container {
+    width: 90%;
+  }
+
+  .planet-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .planet {
+    margin: 5px auto;
+    width: 30%;
+  }
+
+  .mission-card {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px auto;
+    width: 92%;
+  }
 }
